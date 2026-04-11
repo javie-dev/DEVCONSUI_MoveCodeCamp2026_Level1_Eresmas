@@ -268,7 +268,7 @@ Copy the address shown and save it in Notepad.
 
 ### Obtain Mainnet SUI Tokens
 
-You need a small amount of real SUI to pay for deployment gas (approx. 0.012 SUI).
+You need a small amount of real SUI to pay for deployment gas.
 
 1. Go to https://www.qr-code-generator.com/
 2. Paste your wallet address and generate a QR code
