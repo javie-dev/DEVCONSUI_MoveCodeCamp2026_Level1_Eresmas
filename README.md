@@ -248,14 +248,15 @@ code .
 
 ### Switch to Mainnet
 
-Run these two commands one at a time:
-
-```powershell
-sui client new-env --alias mainnet --rpc https://fullnode.mainnet.sui.io:443
-```
+Run this command:
 
 ```powershell
 sui client switch --env mainnet
+```
+> **Note:** If you installed Sui via Chocolatey, your system might have pre-configured these settings. If you see a message saying "Environment already exists," you can run this:
+
+```powershell
+sui client new-env --alias mainnet --rpc https://fullnode.mainnet.sui.io:443
 ```
 
 ### Get Your Wallet Address
